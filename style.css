@@ -1,0 +1,71 @@
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 12rem;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+#texto{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+button{
+    width: 5rem;
+    height: 2rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+#red{
+    background-color: red;
+
+}
+
+#red:hover{
+    background-color: darkred;
+}
+
+
+#green{
+    background-color: green;
+
+}
+
+#green:hover{
+    background-color: darkgreen;
+}
+
+#blue{
+    background-color: blue;
+
+}
+
+#blue:hover{
+    background-color: darkblue;
+}
+
+#black{
+    background-color: black;
+
+}
+
+#black:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
